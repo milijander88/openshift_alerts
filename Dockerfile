@@ -17,11 +17,11 @@ RUN INSTALL_PKGS="python-devel python-setuptools net-tools " && \
 
 RUN cd $HOME
 
-RUN wget https://github.com/Yelp/elastalert/archive/${ELASTALERT_VERSION}.tar.gz -O elastalert-${ELASTALERT_VERSION}.tar.gz
+RUN wget https://github.com/Yelp/elastalert.git -O elastalert.tar.gz
 
 RUN ls -l && pwd
 
-RUN tar xvf elastalert-${ELASTALERT_VERSION}.tar.gz
+RUN tar xvf elastalert.tar.gz
 
 RUN ls -l
 
