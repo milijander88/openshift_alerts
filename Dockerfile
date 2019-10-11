@@ -1,7 +1,7 @@
 FROM registry.access.redhat.com/rhscl/python-27-rhel7
 
 
-ENV ELASTALERT_VERSION=v0.1.39
+ENV ELASTALERT_VERSION=v0.2.1
 
 # Elastalert rules directory.
 ENV ELASTALERT_HOME=/opt/elastalert
