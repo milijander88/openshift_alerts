@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/rhscl/python-27-rhel7
+FROM registry.access.redhat.com/rhscl/python-35-rhel7
 
 
 ENV ELASTALERT_VERSION=v0.2.1
